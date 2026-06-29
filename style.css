@@ -3,14 +3,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* GLOBAL */
 body {
-    background-color: #1f2235;
+    margin: 0;
+    font-family: Arial;
+    background: #1f2235;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    text-align: center;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px 20px;
+}
+
+/* TITRES */
+h1 {
+    color: #ff4d5a;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* IMAGE PRINCIPALE */
+.main-img img {
+    width: 80%;
+    max-width: 800px;
+}
+
+/* DESCRIPTION */
+.description {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* GALERIE */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+
+
+footer {
+    padding: 40px 20px;
+    background: #181a2a;
+}
+
+footer a {
+    color: #ff4d5a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .main-img img {
+        width: 100%;
+    }
 }
 
 /* HEADER */
@@ -206,6 +273,49 @@ body {
 .card-content p {
     font-size: 14px;
 }
+
+.parcours-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-parcours {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 🔥 IMPORTANT */
+
+    min-height: 300px; /* ✅ force une taille égale */
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.card-parcours img {
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card-parcours h3 {
+    color: #ff4d5a;
+    margin-bottom: 10px;
+}
+
+.card-parcours p {
+    margin-top: auto; /* 🔥 pousse vers le bas */
+}
+
+
+.card-parcours:hover {
+    transform: translateY(-5px);
+}
+
+
+
 
 /* QUALITES */
 .qualites {
@@ -413,4 +523,48 @@ body {
     .footer {
         padding: 30px 20px;
     }
+}
+
+/* ================= */
+/* PAGE PROJET FIX   */
+/* ================= */
+
+/* centre le contenu */
+section {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* image principale */
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img img {
+    border-radius: 15px;
+}
+
+/* espacement texte */
+.description {
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* galerie plus respirante */
+.gallery {
+    gap: 30px; /* plus d'espace */
+    margin-top: 20px;
+}
+
+/* style visuel images */
+.gallery img {
+    background: #181a2a;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+/* effet hover léger */
+.gallery img:hover {
+    transform: scale(1.05);
 }

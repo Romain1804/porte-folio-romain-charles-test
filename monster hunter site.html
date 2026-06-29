@@ -1,50 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Monster Hunter Tool</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header  class="flex spacebetween aligncenter bgcolor">
-       
-        <img src="assets/Image.jpg" alt="" class="photo">
-        <nav class="padright20 flex gap15"><a href="">présentation du projet</a><a href="">galerie</a>
-    </nav>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+
+    <!-- logo gauche -->
+    <img src="assets/jeux video logo 1.png" class="icon icon-red">
+
+    <!-- chevron gauche -->
+    <span class="arrow arrow-left">&lt;</span>
+
+    <span class="r">R</span>
+    <span class="c">C</span>
+
+    <!-- chevron droit -->
+    <span class="arrow arrow-right">&gt;</span>
+
+    <!-- logo droite -->
+    <img src="assets/data analyse logo 1.png" class="icon icon-white">
+
+</div>
+
+        <nav>
+            <a href="#hero">Accueil</a>
+            <a href="#projets">Mes projets</a>
+            <a href="#parcours">Mon parcours</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <main class="body colorbody">
+    <!-- TITRE -->
+    <section>
+        <h1>Monster Hunter Tool</h1>
+        <p>Projet perso pour améliorer l'expérience du jeu</p>
+    </section>
 
-        <section>
-            <h2 class="txtcenter padbottom40">presentation du projet monster hunter site</h2>
-            <p>Ce projet consiste en la création d’une application web interactive inspirée du concept « Wheel Party Hunt » de Monster Hunter, qui permet de générer aléatoirement des défis pour renouveler l’expérience de jeu. Le principe repose sur l’utilisation de roues aléatoires pour sélectionner différents éléments comme les monstres, les armes ou les conditions de combat, afin de proposer des parties plus variées, ludiques et imprévisibles. Développé en HTML, CSS et JavaScript, ce site met l’accent sur une interface simple et accessible, permettant une utilisation rapide par les joueurs seuls ou en groupe. L’objectif du projet est d’améliorer la rejouabilité du jeu en introduisant du hasard et du challenge, tout en offrant un outil communautaire divertissant et facile d’utilisation.</p>
-        </section>
+    <!-- IMAGE PRINCIPALE -->
+    <section class="main-img">
+        <img src="assets/MONSTER-HUNTER.png" alt="projet monster hunter">
+    </section>
 
-        <section>
-            <h2 class="txtcenter padbottom40">galerie</h2>
-            <div>
-                <img src="assets/53shots_so.png" alt="" class="w30">
-                <img src="assets/908shots_so.png" alt=""class="w30">
-                <img src="assets/MONSTER-HUNTER.png" alt="" class="w30">
-            </div>
-        </section>
+    <!-- DESCRIPTION -->
+    <section class="description">
+        <h2>Présentation</h2>
+        <p>
+            Ce projet consiste en la création d’une application web interactive inspirée du concept 
+            "Wheel Party Hunt". Il permet de générer aléatoirement des défis pour renouveler l’expérience de jeu.
+            Développé en HTML, CSS et JavaScript, ce site met en avant une interface simple et accessible.
+        </p>
+    </section>
 
+    <!-- GALERIE -->
+    <section>
+        <h2>Galerie</h2>
 
-    </main>
-
-    <footer class="padtop100 txtcenter bgcolor">
-
-        <div>
-            <h2 class="padbottom40"> Contact</h2>
-            <a href="" class=" padbottom40 ">romaincharles42@gmail.com</a>
+        <div class="gallery">
+            <img src="assets/53shots_so.png" alt="">
+            <img src="assets/908shots_so.png" alt="">
+            <img src="assets/site monster_hunter.png" alt="">
         </div>
-        <a href="https://www.linkedin.com/in/romain-charles-056485252?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-            class="">
-            Profil linkdin</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:romaincharles42@gmail.com">romaincharles42@gmail.com</a>
+        </p>
+        <p>
+            <a href="index.html">← Retour au portfolio</a>
+        </p>
     </footer>
 
 </body>

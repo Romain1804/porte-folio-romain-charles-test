@@ -1,54 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interno</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header  class="flex spacebetween aligncenter bgcolor">
-       
-        <img src="assets/Image.jpg" alt="" class="photo">
-        <nav class="padright20 flex gap15"><a href="">présentation du projet</a><a href="">galerie</a>
-    </nav>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+
+    <!-- logo gauche -->
+    <img src="assets/jeux video logo 1.png" class="icon icon-red">
+
+    <!-- chevron gauche -->
+    <span class="arrow arrow-left">&lt;</span>
+
+    <span class="r">R</span>
+    <span class="c">C</span>
+
+    <!-- chevron droit -->
+    <span class="arrow arrow-right">&gt;</span>
+
+    <!-- logo droite -->
+    <img src="assets/data analyse logo 1.png" class="icon icon-white">
+
+</div>
+
+        <nav>
+            <a href="#hero">Accueil</a>
+            <a href="#projets">Mes projets</a>
+            <a href="#parcours">Mon parcours</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <main class="body colorbody">
+    <!-- TITRE -->
+    <section>
+        <h1>Interno</h1>
+        <p>Reproduction d’un design avec contraintes</p>
+    </section>
 
-        <section>
-            <h2 class="padbottom40 txtcenter">
-                présentation du projet Interno
-            </h2>
+    <!-- IMAGE PRINCIPALE -->
+    <section class="main-img">
+        <img src="assets/INTERNO.png" alt="Projet Interno">
+    </section>
 
-            <p class="txtcenter padbottom40">
-                le but du projet interno était de recréé le site que l'on nous avais donné en figma, les assets était donné. c'est un site avec des couleurs et qui respire de plus.
-            </p>
-        </section>
-<section>
-    <h2 class="padbottom40 txtcenter">galerie</h2>
+    <!-- DESCRIPTION -->
+    <section class="description">
+        <h2>Présentation</h2>
+        <p>
+            Ce projet consiste en la reproduction d’un design existant en respectant des contraintes précises de mise en page.
+            L’objectif était de travailler la rigueur, l’intégration HTML/CSS et la fidélité au design initial.
+        </p>
+        <p>
+            Ce projet m’a permis de renforcer mes compétences en structuration de pages web, responsive design
+            et organisation du code.
+        </p>
+    </section>
 
-    <div>
-        <img src="assets/INTERNO.png" alt=""class="w30">
-        <img src="assets/320shots_so.png" alt="" class="w30">
-        <img src="assets/695shots_so.png" alt="" class="w30">
-    </div>
-</section>
+    <!-- GALERIE -->
+    <section>
+        <h2>Galerie</h2>
 
-    </main>
-
-    <footer class="padtop100 txtcenter bgcolor">
-
-        <div>
-            <h2 class="padbottom40"> Contact</h2>
-            <a href="" class=" padbottom40 ">romaincharles42@gmail.com</a>
+        <div class="gallery">
+            <img src="assets/interno2.png" alt="">
+            <img src="assets/695shots_so.png" alt="">
+            <img src="assets/320shots_so.png" alt="">
         </div>
-        <a href="https://www.linkedin.com/in/romain-charles-056485252?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-            class="">
-            Profil linkdin</a>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:romaincharles42@gmail.com">romaincharles42@gmail.com</a>
+        </p>
+
+        <p>
+            <a href="index.html">← Retour au portfolio</a>
+        </p>
     </footer>
 
 </body>
