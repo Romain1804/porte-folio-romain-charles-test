@@ -32,6 +32,48 @@ body {
     color: #ff4d5a;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* couleurs lettres */
+.r {
+    color: #ff4d5a;
+}
+
+.c {
+    color: #ffffff;
+}
+
+/* chevrons */
+.arrow-left {
+    color: #ff4d5a;
+}
+
+.arrow-right {
+    color: #ffffff;
+}
+
+/* icônes */
+.icon {
+    width: 24px;
+}
+
+/* icône rouge */
+.icon-red {
+    filter: invert(45%) sepia(90%) saturate(4000%) hue-rotate(320deg);
+}
+
+/* icône blanche */
+.icon-white {
+    filter: brightness(0) invert(1);
+}
+
+
 /* HERO */
 .hero {
     display: flex;
