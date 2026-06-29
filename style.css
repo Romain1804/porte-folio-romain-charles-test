@@ -105,6 +105,19 @@ body {
     width: 420px;
 }
 
+
+.hero-img img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+
+    border-radius: 50%;              /* ✅ cercle */
+    border: 4px solid #ff4d5a;       /* ✅ bordure rouge */
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* ✅ ombre légère */
+}
+
+
 /* BOUTON */
 .btn {
     margin-top: 25px;
@@ -153,6 +166,15 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
+
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top; /* 🔥 TRÈS IMPORTANT */
+}
+
 
 .card {
     background: #ffffff;
