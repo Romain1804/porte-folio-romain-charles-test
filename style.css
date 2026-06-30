@@ -25,6 +25,8 @@ h1 {
     color: #ff4d5a;
 }
 
+
+
 h2 {
     margin-bottom: 20px;
 }
@@ -323,6 +325,11 @@ footer a {
     text-align: center;
 }
 
+
+.section .qualiteh2{
+    color: #ffffff;
+}
+
 .grid-qualites {
     display: flex;
     justify-content: center;
@@ -567,4 +574,36 @@ section {
 /* effet hover léger */
 .gallery img:hover {
     transform: scale(1.05);
+}
+
+.competences {
+    text-align: center;
+}
+
+.competences h2 {
+    color: #ff4d5a;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background: white;
+    color: #1f2235;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-3px);
+    background: #ff4d5a;
+    color: white;
 }
