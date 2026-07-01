@@ -88,6 +88,7 @@ footer a {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
+
 }
 
 .header nav a {
@@ -328,6 +329,10 @@ footer a {
 
 .section .qualiteh2{
     color: #ffffff;
+}
+
+.qualiteradius{
+    border-radius: 20px;
 }
 
 .grid-qualites {
@@ -607,3 +612,4 @@ section {
     background: #ff4d5a;
     color: white;
 }
+
